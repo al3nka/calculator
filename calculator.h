@@ -4,8 +4,12 @@
 class Calculator
 {
     public:
-        int Add (int, int);
+        int Add (double, double);
         int Mul (double, double);
+        int Sub (double, double);
+        int Div (double, double);
+        int Pow (double, double);
+        int Sqrt (double);
 };
 
 #endif//CALCULATOR_H
